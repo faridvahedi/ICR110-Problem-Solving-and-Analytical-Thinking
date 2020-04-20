@@ -1,1 +1,0 @@
-# ICR110-Problem-Solving-and-Analytical-Thinking
