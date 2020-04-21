@@ -1,10 +1,46 @@
 Add the butter
-minced garlic to a deep skillet
-Add the milk to the skillet along with the cream cheese
+If loop
+If there is a butter --> ADD IT
+else BUY ONE
+
+Add minced garlic to a deep skillet
+If loop
+If you have a minced garlic --> put it in a deep skillet
+else --> mince a garlic
+
+Add the milk to the skillet
+If loop
+if you have a milk --> add it to the skillet
+else --> buy a bottle of milk
+
 Adding Parmesan
+if loop
+if you have parmesan --> add it
+else --> buy one pack
+
 Season the sauce with salt and pepper.
+if you have not added salt and papaer --> add
+else --> add some
+
 Add the fresh spinach to the sauce.
+if loop
+
 Boil a pot of hot water.
+while loop
+while the water is getting hot on the oven leave it there
+once the watter is boiling --> go for the next step
+
 Add the pasta and cook until al dense.
+if loop
+if you have pasta --> add it
+else --> buy one
+
+while loop
+keep the pasta till it get al dente (7 mins) and then go for the next step
+
 Drain the pasta in a colander.
-add the cooked and drained pasta to the spinach alfredo sauce.
+if you have a colander --> drain the pasta in
+else get one colander
+
+add drained pasta to the alfredo sauce.
+do we need a loop? this is like a SUM 
