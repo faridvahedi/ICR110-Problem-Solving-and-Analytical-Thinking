@@ -1,11 +1,37 @@
 Brace the Tires.
+if loop
+if the tire is fine --> go for the next tire
+else --> brace the tire 
+
 Position the Jack.
+if the tire has been braced --> position the jack
+else --> go for the next tire
+
 Jack Up the Car.
+While loop
+while the tire is touching the ground jack it up
+
 Remove Hubcaps.
+if there is a hupcap --> remove it
+else --> go for the next screw
+
 Loosen Lug Nuts.
+while a Lug Nut is tight tight continue till it's loose
+
 Remove the Lug Nuts.
+
 Remove the Tire.
+
 Install the new Tire.
+
 Put the Lug Nuts back on.
+
 Tighten the Lug Nuts.
+if loop
+if there is more room to make the Lug Nuts tighten --> tight more
+else --> go for the next Lug Nut
+
 Check the Lug Nuts After Driving.
+if Loop
+If a Lug nut is well fixed --> go for the next one
+else --> tight it enough
