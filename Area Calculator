@@ -1,0 +1,18 @@
+Circle Area
+π=3.14
+R=INPUT
+A=πR^2
+Print A
+
+Triangle Area
+H=INPUT
+B=INPUT
+A1=HB/2
+Print A1
+
+Rectangle Area
+L=INPUT
+W=INPUT
+A2=LW
+Print A2
+
