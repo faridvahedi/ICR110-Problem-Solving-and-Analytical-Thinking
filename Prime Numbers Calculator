@@ -22,7 +22,7 @@ if the R is 0   --> it is not a prime number
 else  --> go for the new D=D+1
 end
 
-Print "N is a prime number"
+Print i="N is a prime number"
 end
 
 end
