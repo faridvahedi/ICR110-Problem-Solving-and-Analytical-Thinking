@@ -1,0 +1,7 @@
+N1 = Input
+N2 = Input
+N3 = Input
+
+Avg=(N1+N2+N3)/3
+
+Print Avg
