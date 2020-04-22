@@ -1,0 +1,21 @@
+Variable = Number = N  -infinite<N<+infinite
+Variable = Divisor = D  D: integer number and 1<D
+Variable = Remainder = R R:integer number
+
+if N<2  --> it is not a prime number
+else --> take the N for the second step
+
+
+if D reaches to N-1: D=N-1 --> Print N is a prime number
+
+for 1<D<N
+N%D
+Output=R
+if the R is 0   --> it is not a prime number
+else  --> go for the new D=D+1
+
+else  --> N is not a prime number
+
+
+for i:1:100
+Print N is a prime number
