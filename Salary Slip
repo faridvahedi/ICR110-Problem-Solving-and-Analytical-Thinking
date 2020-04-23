@@ -2,24 +2,35 @@ Input: Name
 Input: Rate
 Input: Hours worked
 overtime rate=1.2*Rate
-CPP=4.95%
-EI=1.8%
+CPP%=4.95%
+EI%=1.8%
 
 
 if Hours worked<40 : it's gonna be normal rate:
-Gross Rate = Hours worked * Rate * (100%-CPP-EI)
+Gross income = Hours worked * Rate * (100%-CPP%-EI%)
 Net Income = Hours worked * Rate
-Print Name
-print Gross Rate
-print Net Income
+CPP=Hours worked * Rate *CPP%
+EI=Hours worked * Rate *EI%
 
-
-else : it's gonna be overtime: 
-Gross Rate = (40 * Rate + (Hours worked-40)*overtime rate) * (100%-CPP-EI)
+else : it's gonna include overtime rate: 
+Gross income = (40 * Rate + (Hours worked-40)*overtime rate) * (100%-CPP%-EI%)
 Net Income = 40 * Rate + (Hours worked-40)*overtime rate
-Print Name
-print Gross Rate
-print Net Income
+CPP=(40 * Rate + (Hours worked-40)*overtime rate) * CPP%
+EI=(40 * Rate + (Hours worked-40)*overtime rate) * EI%
+
+Print "Name", you have worked "Hours worked" in this week.
+Print $"Rate" per hour
+
+if Hours worked>40
+Over time hours= Hours worked-40
+print Overtime:"Over time hours"
+
+else : go for the net step
+
+print $"Gross income"
+print $"CPP"
+print $"EI"
+print $"Net Income"
 
 
 
