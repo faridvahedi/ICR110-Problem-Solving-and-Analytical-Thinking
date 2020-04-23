@@ -2,15 +2,19 @@ Variable = Number = N  integer number -infinite<N<+infinite
 Variable = Divisor = D  D: integer number and 1<D
 Variable = Remainder = R R:integer number
 
-Initialize N=1
+Initialize N=0
 Initialize D=2
 
+step 1
+increasing N + 1
 
-if N<2  --> it is not a prime number
+step 2
+if N<2  --> it is not a prime number and go back to step 1
 else --> take the N for the second step
 
 
 for N>=2
+
 for i:1:100
 
 if N=2 --> print it as a prime number
