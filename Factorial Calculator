@@ -1,0 +1,20 @@
+Step 1:
+take the number as an Input: N
+
+
+Step 2:
+Factorial=F
+
+i:1:1:infinity
+for i=i+1
+
+if i=1 : F=N*N-1
+else : F=F*N-i
+
+step3:
+if N-i<1 : the Factorial number is finalized
+else : get back to step 2
+
+end
+
+Print F
