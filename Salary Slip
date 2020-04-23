@@ -1,0 +1,25 @@
+Input: Name
+Input: Rate
+Input: Hours worked
+overtime rate=1.2*Rate
+CPP=4.95%
+EI=1.8%
+
+
+if Hours worked<40 : it's gonna be normal rate:
+Gross Rate = Hours worked * Rate * (100%-CPP-EI)
+Net Income = Hours worked * Rate
+Print Name
+print Gross Rate
+print Net Income
+
+
+else : it's gonna be overtime: 
+Gross Rate = (40 * Rate + (Hours worked-40)*overtime rate) * (100%-CPP-EI)
+Net Income = 40 * Rate + (Hours worked-40)*overtime rate
+Print Name
+print Gross Rate
+print Net Income
+
+
+
